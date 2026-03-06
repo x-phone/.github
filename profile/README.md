@@ -6,9 +6,8 @@ Open-source telecom tooling. SIP, VoIP, RTP — tested, scriptable, no infrastru
 
 | Project | Language | What it does |
 |---|---|---|
+| **[xphone-go](https://github.com/x-phone/xphone-go)** | Go | SIP telephony library — registration, calls, RTP media, codecs, DTMF, hold, transfer. Event-driven API. |
 | **[fakepbx](https://github.com/x-phone/fakepbx)** | Go | In-process SIP server for tests. Real SIP over loopback — no Docker, no Asterisk. |
-
-More tools coming — across languages, as the work demands.
 
 ## Philosophy
 
