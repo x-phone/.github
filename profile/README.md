@@ -26,6 +26,7 @@ Embed real phone calls in any application. xphone handles SIP registration, call
 
 | Project | Language | What it does |
 |---|---|---|
-| [xbridge](https://github.com/x-phone/xbridge) | Rust | WebSocket-to-SIP bridge for browser-based voice agents |
+| [xbridge](https://github.com/x-phone/xbridge) | Rust | Self-hosted voice gateway — WebSocket audio streaming and REST call control. Drop-in Twilio replacement. |
+| [xpbx](https://github.com/x-phone/xpbx) | Go | Dockerized Asterisk PBX with web management UI — extensions, trunks, and dialplan out of the box. |
 | [fakepbx](https://github.com/x-phone/fakepbx) | Go | In-process SIP server for tests. Real SIP over loopback — no Docker, no Asterisk. |
-| [fakepbx-rust](https://github.com/x-phone/fakepbx-rust) | Rust | Same concept, for Rust test suites. |
+| [fakepbx-rust](https://github.com/x-phone/fakepbx-rust) | Rust | In-process SIP server for Rust tests. Same concept as fakepbx. |
